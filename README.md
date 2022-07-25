@@ -4,6 +4,10 @@ Post Todo App - Backend
 
 This is a backend service for post todo app.
 
+You can check frontend code here: https://github.com/leadstar116/react-post-todo-app-frontend
+
+Live Url: https://nestjs-posts-todo-backend.herokuapp.com/api/
+
 ## Used Stacks
 
 - Nest.js
