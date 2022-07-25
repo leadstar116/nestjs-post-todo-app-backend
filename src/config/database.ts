@@ -16,7 +16,9 @@ const getOptionsFromConnectionString = (): TypeOrmModuleOptions => {
     password: connectionOptions.password,
     database: connectionOptions.database,
     extra: {
-      ssl: connectionOptions.ssl,
+      ssl: {
+        rejectUnauthorized: false,
+      },
     },
   };
 };
